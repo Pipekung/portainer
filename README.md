@@ -62,4 +62,4 @@ $ docker stack deploy -c stack.yml portainer
 
 and visit
 
-[`127.0.0.1:9000`](127.0.0.1:9000)
+[`http://127.0.0.1:9000`](http://127.0.0.1:9000)
