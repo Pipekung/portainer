@@ -1,6 +1,6 @@
 # Portainer - Docker monitoring
 
-### Create file `stack.yml`
+Create file `stack.yml`
 
 ``` yml
 version: '3.5'
