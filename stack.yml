@@ -24,6 +24,11 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer_data:/data
+    labels:
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:portainer.localhost
+      - traefik.port=9000
+      - traefik.docker.network=reverse-proxy-net
     networks:
       - reverse-proxy-net
     ports:
